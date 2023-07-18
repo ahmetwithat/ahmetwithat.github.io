@@ -1,0 +1,36 @@
+html {
+  color: white;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+:root {
+  --call-to-action: #BD1E1E;
+  --light: #CFD6EA;
+  --dark: #060d0e;
+  --accent: #577590;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: var(--dark);
+}
+
+main {
+  padding: 10px;
+
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
